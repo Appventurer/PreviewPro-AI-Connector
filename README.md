@@ -16,7 +16,7 @@ Signed with Developer ID and notarized by Apple. [SHA-256 checksum](Downloads/SH
 2. Install [Codex CLI](https://developers.openai.com/codex/cli) or [Claude Code](https://code.claude.com/docs/en/setup), following the provider’s official guide.
 3. Sign in through the tool in Terminal: `codex login` or `claude auth login`.
 4. In the connector, choose **Copy pairing code**. In PreviewPro’s AI setup, paste it and choose **Pair and check connection**.
-5. With PreviewPro build 1126 or later, the paired connector starts quietly when AI is needed. Close its setup window; the connection stays in the menu bar and quits when PreviewPro quits. Use the menu bar icon to reopen setup or quit the connector. Older PreviewPro builds can still open it manually.
+5. With PreviewPro build 1127 or later, the paired connector starts quietly when AI is needed. Close its setup window; the connection stays in the menu bar and quits when PreviewPro quits. Use the menu bar icon to reopen setup or quit the connector. Older PreviewPro builds can still open it manually.
 
 If PreviewPro cannot find the connector, choose **Choose connector…** in its setup and select the app. If a provider tool is installed in a custom location, use **Choose Codex…** or **Choose Claude Code…** inside the connector.
 
