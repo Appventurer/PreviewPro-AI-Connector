@@ -4,9 +4,9 @@ Connect PreviewPro for Mac to your installed Codex CLI or Claude Code using your
 
 ## Download
 
-**[Download PreviewPro AI Connector for Mac](https://github.com/Appventurer/PreviewPro-AI-Connector/raw/refs/heads/main/Downloads/PreviewProAIConnector-13.1.1.zip)**
+**[Download PreviewPro AI Connector for Mac](https://github.com/Appventurer/PreviewPro-AI-Connector/raw/refs/heads/main/Downloads/PreviewProAIConnector-13.1.2.zip)**
 
-Version 13.1.1 (1126) · macOS 15 or later · Apple Silicon and Intel
+Version 13.1.2 (1129) · macOS 15 or later · Apple Silicon and Intel
 
 Signed with Developer ID and notarized by Apple. [SHA-256 checksum](Downloads/SHA256SUMS).
 
@@ -21,3 +21,10 @@ Signed with Developer ID and notarized by Apple. [SHA-256 checksum](Downloads/SH
 If PreviewPro cannot find the connector, choose **Choose connector…** in its setup and select the app. If a provider tool is installed in a custom location, use **Choose Codex…** or **Choose Claude Code…** inside the connector.
 
 The connector is free. It accepts paired requests only on this Mac and uses the unmodified provider tool; PreviewPro does not read provider passwords or session tokens. Prompts, selected images and layouts are sent by that tool to its provider. Your provider’s subscription eligibility, billing, and usage limits apply; there are no PreviewPro AI credits. Requests already sent may count toward provider usage even if canceled. PreviewPro is independent of OpenAI and Anthropic.
+
+
+## Original background images and decorations
+
+With PreviewPro build 1129 or later, this connector supports original background images and transparent cutout artwork through Codex's built-in image generation. Update Codex CLI and sign in with an eligible account. Image generation uses your Codex plan limits at a higher rate than text-only work. Claude Code remains available for layout, editable shapes and images you supply. There are no PreviewPro AI credits or image API-key fields.
+
+Update the connector app in Applications, then reopen it. Your existing pairing code is preserved. Layout jobs remain compatible with older PreviewPro builds.
